@@ -82,7 +82,7 @@ function plot() {
         .attr("text-anchor", "middle")
         .style("font-size", "24px")
         .style("font-family", "sans-serif")
-        .text("Sentiment Ratings of Online Sources from 2020 to 2023");
+        .text("Sentiments Toward Remote Work on Online Sources from 2020 to 2023");
 
 
     let xVar = document.getElementById("select-x-var").value;
