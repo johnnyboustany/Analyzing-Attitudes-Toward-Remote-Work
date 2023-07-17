@@ -1,7 +1,6 @@
-# Analyzing-Attitudes-Toward-Remote-Work
-Analyzed remote work sentiments from Reddit &amp; The Guardian using a supervised ML model with 71% accuracy. Produced an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources.
-
 # Analyzing Attitudes Toward Remote Work
+
+Analyzed remote work sentiments from Reddit &amp; The Guardian using a supervised ML model with 71% accuracy. Produced an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources.
 
 Typeically is a web-based typing app that allows you to find your favorite songs and type along to the lyrics! I created & developed this app alongside four classmates for my Spring 2022 Software Engineering course.
 
