@@ -6,7 +6,7 @@ Given a diverse set of voices and datapoints regarding remote work, we set out t
 The application allows you to see all the distinct data points and click on the article/post associated with each data point.
 
 <p align="center">
-    <img src="./assets/typeically.png" alt="" width="1000">
+    <img src="./assets/webapppic.png" alt="" width="1000">
 </p>
 
 ## Table of Contents
