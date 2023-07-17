@@ -2,7 +2,7 @@
 
 Analyzed remote work sentiments from Reddit &amp; The Guardian using a supervised ML model with 71% accuracy. Produced an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources.
 
-*The interactive D3.js web app is live at:*
+[*The interactive D3.js web app is live at:*](https://johnnyboustany.github.io/Analyzing-Attitudes-Toward-Remote-Work/)
 
 <p align="center">
     <img src="./assets/typeically.png" alt="" width="1000">
@@ -50,10 +50,6 @@ The three figures demonstrate the lack of a clear trend in the sentiment ratings
     <img src="./assets/type-demo2.gif" alt="A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.">
 </p>
 
-## Testing
-
-The backend was tested with JUnit tests that targeted the API Handlers. The frontend was tested using Selenium to verify that all features of the app work in conjunction.
-     
 ## Project Status
 Project is: Complete (as of May 2023)
 
