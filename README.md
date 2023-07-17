@@ -4,6 +4,7 @@ Given a diverse set of voices and datapoints regarding remote work, we set out t
 
 *The interactive D3.js web app is live [here](https://johnnyboustany.github.io/Analyzing-Attitudes-Toward-Remote-Work/).*
 The application allows you to see all the distinct data points and click on the article/post associated with each data point.
+Find a preview of the app below:
 
 <p align="center">
     <img src="./assets/webapppic.png" alt="" width="1000">
@@ -44,11 +45,24 @@ To investigate the overall trend of sentiment further, we also trained a linear 
 The three figures demonstrate the lack of a clear trend in the sentiment ratings across time and various sources. They also show the negative bias among all the sources in which the sentiment ratings tend to be more negative rather than positive.
 
 <p align="center">
-    <img src="./assets/type-demo.gif" alt="A user searches for a song and types to it, and their typing statistics and place in the leaderboard appear at the end.">
+    Figure 1. Monthly average sentiment rating by source category.
+    <br>
+    <img src="./assets/graph1.png" height=300 alt="">
 </p>
 
 <p align="center">
-    <img src="./assets/type-demo2.gif" alt="A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.">
+    Figure 2. Rolling mean of sentiment ratings across all sources.
+
+    <br>
+    
+    <img src="./assets/graph2.png" height=300 alt="">
+    
+</p>
+
+<p align="center">
+    Figure 3.  Yearly average sentiment rating by source category.
+    <br>
+    <img src="./assets/graph3.png" height=300 alt="">
 </p>
 
 ## Project Status
