@@ -1,6 +1,6 @@
 let articleData = []
 let currData = []
-fetch('combined_ratings_and_articles.json')
+fetch('./assets/combined_ratings_and_articles.json')
     .then(response => response.json())
     .then(data => {
         articleData = data;
