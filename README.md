@@ -1,6 +1,6 @@
 # Analyzing Attitudes Toward Remote Work
 
-Analyzed remote work sentiments from Reddit &amp; The Guardian using a supervised ML model with 71% accuracy. Produced an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources.
+Given a diverse set of voices and datapoints regarding remote work, we set out to test the hypothesis that remote work sentiment has decreased over the past few years. We combined 3 unique sources for our dataset: The Guardian, The New York Times, and Reddit. 307 and 295 articles were obtained from the NYT and the Guardian, respectively, by querying their APIs for articles about ‘remote work’. 548 Reddit posts were obtained by scraping the “experienceddevs” and “cscareerquestions” subreddits for posts containing the terms “remote work”, “work from home”, or “WFH”. 
 
 *The interactive D3.js web app is live [here](https://johnnyboustany.github.io/Analyzing-Attitudes-Toward-Remote-Work/).*
 
