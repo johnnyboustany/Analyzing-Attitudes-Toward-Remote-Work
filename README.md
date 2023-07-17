@@ -2,7 +2,7 @@
 
 Analyzed remote work sentiments from Reddit &amp; The Guardian using a supervised ML model with 71% accuracy. Produced an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources.
 
-*The web application is live at:*
+*The interactive D3.js web app is live at:*
 
 <p align="center">
     <img src="./assets/typeically.png" alt="" width="1000">
@@ -70,12 +70,10 @@ Finally, our sentiment analysis model was less effective on news articles than o
 
 ## Contributions
 
- I specifically worked on:
-- the backend and frontend (React) aspects of the leaderboard, including setting up APIs to ensure the leaderboard is updated
-- testing the leaderboard database from the backend by writing the JUnit tests
-- the API handler to send the list of newly-released songs from Spotify to the frontend
-- the frontend “choose a newly-released song” feature which allows users to choose a recent song
-- testing all aspects of the frontend with Selenium
-- helping my group members integrate their parts and making sure merges go smoothly
+ I specifically:
+ - Retreived The Guardian data from the The Guardian API
+ - Conducted hypothesis testing
+ - Developed and coded an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources
 
-My group members: @coltonrusch, @mohammedakel, @JAnagonye, @glet2024, @mstephe7
+My group members: Max Dekle (mdekle), David Lauerman (dlauerman) & Nicholas Petrocelli (npetroce)
+
