@@ -47,15 +47,16 @@ The three figures demonstrate the lack of a clear trend in the sentiment ratings
 <p align="center">
     Figure 1. Monthly average sentiment rating by source category.
     <br>
-    <img src="./assets/graph1.png" height=300 alt="">
+    <img src="./assets/graph2.png" height=300 alt="">
+
 </p>
 
 <p align="center">
     Figure 2. Rolling mean of sentiment ratings across all sources.
 
 <br>
+    <img src="./assets/graph1.png" height=300 alt="">
     
-<img src="./assets/graph2.png" height=300 alt="">
     
 </p>
 
