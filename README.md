@@ -1,6 +1,6 @@
 # Analyzing Attitudes Toward Remote Work
 
-I created & developed this project alongside three classmates for my May 2023 Data Science course. 
+I created & developed this project alongside three classmates for my Spring 2023 Data Science course. 
 
 Given a diverse set of voices and datapoints regarding remote work, we set out to test the hypothesis that remote work sentiment has decreased over the past few years post-Covid. We combined 3 unique sources for our dataset: The Guardian, The New York Times, and Reddit. 307 and 295 articles were obtained from the NYT and the Guardian, respectively, by querying their APIs for articles about ‘remote work’. 548 Reddit posts were obtained by scraping the “experienceddevs” and “cscareerquestions” subreddits for posts containing the terms “remote work”, “work from home”, or “WFH”. We used a supervised ML model with 71% accuracy to generate sentiment ratings that range from -1 (negative sentiment) to 1 (positive sentiment) for all our data points.
 
