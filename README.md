@@ -30,14 +30,14 @@ The prevalence of remote work increased massively from the start of the COVID-19
 
 We set out to test the hypothesis that remote work sentiment has decreased over the past few years; in other words, remote work is not as popular as it used to be. Additionally, we hypothesized that social media and news sites would diverge from each other in their average sentiment while remaining consistent within the same category.
 
-### Data and Methodology:
+### Data and Methodology
 
 We wanted to include a diverse array of perspectives in our data from both ordinary office workers and from mainstream news articles, which often capture the perspectives of managers and other officials. To do this, we obtained 1150 posts and articles in total, of which 307 were from the New York Times, 295 were from The Guardian, and 548 were from the Reddit communities /r/cscareerquestions and /r/experienceddevs.
 
 We created  a sentiment score for each article using a ROBERTA-Base model fine-tuned for sentiment analysis of tweets1.  The scores were the average per-sentence sentiment of each given article scaled by the model’s confidence in its predictions. Thus, a score of 1.0 would be given to an extremely positive article, and likewise -1.0 would represent extremely negative sentiment. We found that this was a sufficient means of labeling sentiment, with manual validation showing agreement with human reviewers about 84% of the time, albeit with a bias towards rating news articles more neutrally.
 
 
-## Analysis:
+## Analysis
 
 To test our hypotheses, we performed three two-sample t-tests, two of which compared the average sentiment within each category of data source (news vs. Reddit) and one compared the average sentiment between the two categories. In all three cases, we failed to reject the null hypothesis, meaning that we did not find a statistically significant difference between the average sentiment between or within categories. 
 To investigate the overall trend of sentiment further, we also trained a linear regression model to look for an upward or downward trend. While the model had a high accuracy with a low MSE of 0.05, the model was not statistically significant with a low r2 of -0.004, meaning that there was high variance in our data that could not be explained by the model. This means we could not find a definitive upward or downward trend in overall sentiment across the three sources.
