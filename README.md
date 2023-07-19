@@ -2,7 +2,7 @@
 
 I created & developed this project alongside three classmates for my Spring 2023 Data Science course. 
 
-Given a diverse set of voices and datapoints regarding remote work, we set out to test the hypothesis that remote work sentiment has decreased over the past few years post-Covid. We combined 3 unique sources for our dataset: The Guardian, The New York Times, and Reddit. 307 and 295 articles were obtained from the NYT and the Guardian, respectively, by querying their APIs for articles about ‘remote work’. 548 Reddit posts were obtained by scraping the “experienceddevs” and “cscareerquestions” subreddits for posts containing the terms “remote work”, “work from home”, or “WFH”. We used a supervised ML model with 71% accuracy to generate sentiment ratings that range from -1 (negative sentiment) to 1 (positive sentiment) for all our data points.
+The prevalence of remote work increased massively from the start of the COVID-19 pandemic in 2020, leading many to write about the policies and their experiences with them, both on social media and in the news. We investigated whether the sentiments in these writings compare and have changed over time. Previously, many businesses began to accommodate work-from-home policies in order to comply with social distancing guidelines. However, recently, some companies have been advocating for a return to the office, despite pushback from their employees. Therefore, we wanted to analyze a diverse set of opinions to see if this was actually true – is remote work really on the decline, or is it here to stay? 
 
 *The interactive D3.js web app is live [here](https://johnnyboustany.github.io/Analyzing-Attitudes-Toward-Remote-Work/).*
 The application allows you to see all the 1,150 data points and click on the article/post associated with each data point.
@@ -28,9 +28,7 @@ Python, Pandas, scikit-learn, D3.js
 
 ## General Info
 
-The prevalence of remote work increased massively from the start of the COVID-19 pandemic in 2020, leading many to write about the policies and their experiences with them, both on social media and in the news. We investigated whether the sentiments in these writings compare and have changed over time. Previously, many businesses began to accommodate work-from-home policies in order to comply with social distancing guidelines. However, recently, some companies have been advocating for a return to the office, despite pushback from their employees. Therefore, we wanted to analyze a diverse set of opinions to see if this was actually true – is remote work really on the decline, or is it here to stay? 
-
-We set out to test the hypothesis that remote work sentiment has decreased over the past few years; in other words, remote work is not as popular as it used to be. Additionally, we hypothesized that social media and news sites would diverge from each other in their average sentiment while remaining consistent within the same category.
+Given a diverse set of voices and datapoints regarding remote work, we set out to test the hypothesis that remote work sentiment has decreased over the past few years post-Covid. We combined 3 unique sources for our dataset: The Guardian, The New York Times, and Reddit. 307 and 295 articles were obtained from the NYT and the Guardian, respectively, by querying their APIs for articles about ‘remote work’. 548 Reddit posts were obtained by scraping the “experienceddevs” and “cscareerquestions” subreddits for posts containing the terms “remote work”, “work from home”, or “WFH”. We used a supervised ML model with 71% accuracy to generate sentiment ratings that range from -1 (negative sentiment) to 1 (positive sentiment) for all our data points. Additionally, we hypothesized that social media and news sites would diverge from each other in their average sentiment while remaining consistent within the same category.
 
 ### Data and Methodology
 
